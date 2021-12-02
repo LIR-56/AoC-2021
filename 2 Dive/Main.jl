@@ -13,6 +13,7 @@ function calculatePosition(filename)
             depth += n
         end
     end
+    close(f)
     return horizontalposition * depth
 end
 
@@ -33,6 +34,7 @@ function calculatePosition2(filename)
             aim += n
         end
     end
+    close(f)
     return horizontalposition * depth
 end
 
